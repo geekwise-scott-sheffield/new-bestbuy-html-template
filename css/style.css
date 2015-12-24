@@ -99,6 +99,9 @@ header > img{
     width: 100%;
 }
 .r_s_Top{
+    
+    vertical-align: baseline;
+    
     float: right;
     height: 55%;
 }
@@ -247,6 +250,18 @@ main > .dep_template{
 
 /******Ending sections/social media information of Newsletter******/
 
+
+.white_link{
+    margin-left:  11%;
+    font-size: 1.4rem;
+    color: white;
+}
+.blue_link{
+    margin-left:  13%;
+    font-size: 1.35rem;
+    color: paleturquoise;
+}
+
 footer{
     width: 80%;
     margin-left: auto;
@@ -272,16 +287,34 @@ footer > div{
     float: right;
     width: 45%;
 }
+.footer_directory_3 > div{
+    overflow: hidden;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+}
+
+.footer_directory_3 > div > img{
+    
+    width: 18%;
+    height: 50%;
+    
+    max-height: 100%;
+    max-width: 100%;
+}
 
 
-
-.white_link{
-    margin-left:  11%;
+.footer_directory_3 > .white_bottom{
+    border-bottom: 1px solid white;
+}
+.footer_directory_3 > .white_bottom > h3{
+    float: none;
+    display: inline;
     font-size: 1.4rem;
-    color: white;
 }
-.blue_link{
-    margin-left:  13%;
-    font-size: 1.35rem;
-    color: paleturquoise;
+.footer_directory_3 > .white_bottom > img{
+    float: left;
 }
+
